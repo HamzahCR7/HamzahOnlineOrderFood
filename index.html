@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Food Order</title>
+	<meta charset="utf-8">
+		<meta name="viewport"content="with=device-width,initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+			  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			  <link rel="stylesheet" type="text/css" href="custom.css">
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container-fluid ">
+	<div class="row" id="fda_app">
+		<section id="fda_side_bar">
+			<div class="menu_icon">
+				<i class="fa fa-bars"></i>
+			</div>
+			<div class="menu">
+				<ul>
+					<li>American</li>
+					<li>Chinese</li>
+					<li class="active">Indian</li>
+				</ul>
+			</div>
+			<div class="menu_filter">
+				<i class="fa fa-bar-chart"></i>
+			</div>
+		</section>
+		<section class="col-12" id="fda_header_bar">
+			<div class="row">
+				<div class="col-12">
+					<span>Hamzah Online</span>&nbsp;Food
+				</div>
+				
+			</div>
+			<div class="row fda_search_row">
+				<div class="col-12">
+					<i class="fa fa-search"></i>
+					<input type="text" class="fda_ip_search" placeholder="Search By Food Here">
+				</div>
+			</div>
+		</section>
+		<p class="hamzah text-center">Evergreen Dishes</p>
+		<section class="col-lg-4 col-12" id="fda_product_tile">
+
+			<div  class="row fda_food_row">
+				<div class="col-9">
+
+					<div class="food_tile active">
+						<img src="biryani.jpg" alt="" class="fda_product_img"><br>
+						<span class="food_name">Dum Biryani</span><br>
+						<span class="food_detail">Lazeez Hyderabadi Dum Biryani,Two leg pieces with one boiled egg inside</span>
+						<ul id="food_meta">
+							<li>
+								Calorie
+								<span>500cal</span>
+							</li>
+							<li>
+								Price
+								<span><i class="fa fa-inr">200</i></span>
+							</li>
+						</ul>
+						<button class="btn btn-sm btn-default" type="button">Order Now</button>
+					</div>
+				</div>
+				<div class="col-9">
+					<div class="food_tile active">
+						<img src="dosa.jpg" alt="" class="fda_product_img">
+						<span class="food_name">Masala Dosa</span><br>
+						<span class="food_detail">Lazeez Hyderabadi Dum Biryani,Two leg pieces with one boiled egg inside</span>
+						<ul id="food_meta">
+							<li>
+								Calorie
+								<span>500cal</span>
+							</li>
+							<li>
+								Price
+								<span><i class="fa fa-inr">200</i></span>
+							</li>
+						</ul>
+						<button class="btn btn-sm btn-default" type="button">Order Now</button>
+					</div>
+				</div>
+				<div class="col-9">
+					<div class="food_tile active">
+						<img src="chillichicken.jpg" alt="" class="fda_product_img"><br>
+						<span class="food_name">Chilli Chicken</span><br>
+						<span class="food_detail">Lazeez Hyderabadi Dum Biryani,Two leg pieces with one boiled egg inside</span>
+						<ul id="food_meta">
+							<li>
+								Calorie
+								<span>500cal</span>
+							</li>
+							<li>
+								Price
+								<span><i class="fa fa-inr">200</i></span>
+							</li>
+						</ul>
+						<button class="btn btn-sm btn-default" type="button">Order Now</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="col-12 fda_section_product_tile">
+			<div class="row fda_title_row">
+				<div class="col-12">
+					Popular this Week
+				</div>
+			</div>
+			<div class="row fda_section_row">
+				<div class="row col-10 section_product_tile" >
+					<div class="col-4 justify-content-center align-self-center">
+						<img src="pic1.jpg">
+					</div>
+						<div class="col-6 justify-content-center align-self-center section_meta">
+						<span class="product_title">
+							 Butter Mutton
+						</span>
+						<span class="product_rating">
+							<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+																					<i class="fa fa-star"></i>
+
+							<i class="fa fa-star"></i>
+
+							<i class="fa fa-star-half"></i>
+
+<span class="rating_avg">(4.5)</span>
+						</span>
+						<span class="product_price">
+							<i class="fa fa-inr">250.00</i>
+						</span>
+					</div>
+				</div>
+				<div class="row col-10 section_product_tile" >
+					<div class="col-4 justify-content-center align-self-center">
+						<img src="chamcham.jpg">
+					</div>
+						<div class="col-6 justify-content-center align-self-center section_meta">
+						<span class="product_title">
+							 Chamcham
+						</span>
+						<span class="product_rating">
+							<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+																					<i class="fa fa-star"></i>
+
+							<i class="fa fa-star"></i>
+
+							<!-- <i class="fa fa-star-half"></i> -->
+
+<span class="rating_avg">(4)</span>
+						</span>
+						<span class="product_price">
+							<i class="fa fa-inr">350.00</i>
+						</span>
+					</div>
+				</div>
+				<div class="row col-10 section_product_tile" >
+					<div class="col-4 justify-content-center align-self-center">
+						<img src="idli.jpg">
+					</div>
+						<div class="col-6 justify-content-center align-self-center section_meta">
+						<span class="product_title">
+							 Idli
+						</span>
+						<span class="product_rating">
+							<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+																					<i class="fa fa-star"></i>
+
+							<i class="fa fa-star"></i>
+
+							<i class="fa fa-star-half"></i>
+
+<span class="rating_avg">(4.5)</span>
+						</span>
+						<span class="product_price">
+							<i class="fa fa-inr">250.00</i>
+						</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="col-12 fda_section_product_tile">
+			<div class="row fda_title_row">
+				<div class="col-12">
+					New Arrivals
+				</div>
+			</div>
+			<div class="row fda_section_row">
+				<div class="row col-10 section_product_tile" >
+					<div class="col-4 justify-content-center align-self-center">
+						<img src="RoganJosh.jpg">
+					</div>
+						<div class="col-6 justify-content-center align-self-center section_meta">
+						<span class="product_title">
+							 RoganJosh
+						</span>
+						<span class="product_rating">
+							<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+																					<i class="fa fa-star"></i>
+
+							<i class="fa fa-star"></i>
+
+							<i class="fa fa-star-half"></i>
+
+<span class="rating_avg">(4.5)</span>
+						</span>
+						<span class="product_price">
+							<i class="fa fa-inr">250.00</i>
+						</span>
+					</div>
+				</div>
+				<div class="row col-10 section_product_tile" >
+					<div class="col-4 justify-content-center align-self-center">
+						<img src="gulabjamun.jpg">
+					</div>
+						<div class="col-6 justify-content-center align-self-center section_meta">
+						<span class="product_title">
+							 Gulab Jamun
+						</span>
+						<span class="product_rating">
+							<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+																					<i class="fa fa-star"></i>
+
+							<i class="fa fa-star"></i>
+
+							<!-- <i class="fa fa-star-half"></i> -->
+
+<span class="rating_avg">(4)</span>
+						</span>
+						<span class="product_price">
+							<i class="fa fa-inr">350.00</i>
+						</span>
+					</div>
+				</div>
+				<div class="row col-10 section_product_tile" >
+					<div class="col-4 justify-content-center align-self-center">
+						<img src="falooda.jpeg">
+					</div>
+						<div class="col-6 justify-content-center align-self-center section_meta">
+						<span class="product_title">
+							 Falooda
+						</span>
+						<span class="product_rating">
+							<i class="fa fa-star"></i>
+														<i class="fa fa-star"></i>
+																					<i class="fa fa-star"></i>
+
+							<i class="fa fa-star"></i>
+
+							<i class="fa fa-star-half"></i>
+
+<span class="rating_avg">(4.5)</span>
+						</span>
+						<span class="product_price">
+							<i class="fa fa-inr">250.00</i>
+						</span>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>
+</body>
+</html>
