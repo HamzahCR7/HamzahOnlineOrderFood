@@ -30,6 +30,9 @@ body{
 	height: 80%;
 
 }
+.row a{color:#000;text-decorationnone;
+
+}
 .menu{
 	transform-origin:top left ;
 	transform: rotate(-90deg) translateX(-1150%);

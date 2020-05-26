@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Online Food Order</title>
+	<title>American Food</title>
 	<meta charset="utf-8">
 		<meta name="viewport"content="with=device-width,initial-scale=1">
 
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="american.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 			  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 			  <link rel="stylesheet" type="text/css" href="custom.css">
@@ -24,9 +24,9 @@
 			</div>
 			<div class="menu">
 				<ul>
-					<li><a href="american.html">American</a></li>
+					<li class="active">American</li>
 					<li><a href="chinese.html">Chinese</a></li>
-					<li class="active">Indian</li>
+					<li ><a href="index.html">Indian</a></li>
 				</ul>
 			</div>
 			<div class="menu_filter">
@@ -54,13 +54,32 @@
 				<div class="col-9">
 
 					<div class="food_tile active">
-						<img src="biryani.jpg" alt="" class="fda_product_img"><br>
-						<span class="food_name">Dum Biryani</span><br>
-						<span class="food_detail">Lazeez Hyderabadi Dum Biryani,Two leg pieces with one boiled egg inside</span>
+						<img src="americanpie.jpg" alt="" class="fda_product_img"><br>
+						<span class="food_name">American Pie</span><br>
+						<span class="food_detail">Nothing's more American than apple pie, unless it's cherry, pumpkin, peach or ... dessert recipe has a wonderful taste and will be a hit at your holiday meal.</span>
 						<ul id="food_meta">
 							<li>
 								Calorie
 								<span>500cal</span>
+							</li>
+							<li>
+								Price
+								<span><i class="fa fa-inr">300</i></span>
+							</li>
+						</ul>
+						<button class="btn btn-sm btn-default" type="button"><a href="waiting.html">Order Now</a></button>
+					</div>
+				</div>
+				<div class="col-9">
+					<div class="food_tile active">
+						<img src="hotdogs.jpg" alt="" class="fda_product_img">
+						<span class="food_name">Hot Dogs</span><br>
+						<span class="food_detail">
+Try a new twist on an old favorite with our top hot dogs including Chicago-style dogs, nacho dogs, corn dogs and more from Food Network.</span>
+						<ul id="food_meta">
+							<li>
+								Calorie
+								<span>4000cal</span>
 							</li>
 							<li>
 								Price
@@ -72,35 +91,17 @@
 				</div>
 				<div class="col-9">
 					<div class="food_tile active">
-						<img src="dosa.jpg" alt="" class="fda_product_img">
-						<span class="food_name">Masala Dosa</span><br>
-						<span class="food_detail">One of the most popular south Indian breakfast served in tiffin centers and restaurants. Dosa is a thin crispy crepe made ...</span>
+						<img src="hamburgers.jpg" alt="" class="fda_product_img"><br>
+						<span class="food_name">Hamburgers</span><br>
+						<span class="food_detail"> A hamburger is a sandwich consisting of a cooked meat patty on a bun or roll. .</span>
 						<ul id="food_meta">
 							<li>
 								Calorie
-								<span>500cal</span>
+								<span>300cal</span>
 							</li>
 							<li>
 								Price
-								<span><i class="fa fa-inr">200</i></span>
-							</li>
-						</ul>
-						<button class="btn btn-sm btn-default" type="button"><a href="waiting.html">Order Now</a></button>
-					</div>
-				</div>
-				<div class="col-9">
-					<div class="food_tile active">
-						<img src="chillichicken.jpg" alt="" class="fda_product_img"><br>
-						<span class="food_name">Chilli Chicken</span><br>
-						<span class="food_detail">Chilli chicken is a sweet, spicy & slightly sour crispy appetizer made with chicken, bell peppers, garlic, chilli sauce & soya sauce./span>
-						<ul id="food_meta">
-							<li>
-								Calorie
-								<span>500cal</span>
-							</li>
-							<li>
-								Price
-								<span><i class="fa fa-inr">200</i></span>
+								<span><i class="fa fa-inr">356</i></span>
 							</li>
 						</ul>
 						<button class="btn btn-sm btn-default" type="button"><a href="waiting.html">Order Now</a></button>
@@ -117,11 +118,11 @@
 			<div class="row fda_section_row">
 				<div class="row col-10 section_product_tile" >
 					<div class="col-4 justify-content-center align-self-center">
-						<img src="pic1.jpg">
+						<img src="arizona-chimichangas.jpg">
 					</div>
 						<div class="col-6 justify-content-center align-self-center section_meta">
 						<span class="product_title">
-							 Butter Mutton
+							 Arizona Chimichangas
 						</span>
 						<span class="product_rating">
 							<i class="fa fa-star"></i>
@@ -143,11 +144,11 @@
 				</div>
 				<div class="row col-10 section_product_tile" >
 					<div class="col-4 justify-content-center align-self-center">
-						<img src="chamcham.jpg">
+						<img src="meatloaf.jpg">
 					</div>
 						<div class="col-6 justify-content-center align-self-center section_meta">
 						<span class="product_title">
-							 Chamcham
+							 Meatloaf
 						</span>
 						<span class="product_rating">
 							<i class="fa fa-star"></i>
@@ -155,6 +156,7 @@
 																					<i class="fa fa-star"></i>
 
 							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o" aria-hidden="true"></i>
 
 							<!-- <i class="fa fa-star-half"></i> -->
 
@@ -169,21 +171,19 @@
 				</div>
 				<div class="row col-10 section_product_tile" >
 					<div class="col-4 justify-content-center align-self-center">
-						<img src="idli.jpg">
+						<img src="cupcakes.jpg">
 					</div>
 						<div class="col-6 justify-content-center align-self-center section_meta">
 						<span class="product_title">
-							 Idli
+							 Cupcakes
 						</span>
 						<span class="product_rating">
 							<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 																					<i class="fa fa-star"></i>
 
-							<i class="fa fa-star"></i>
-
-							<i class="fa fa-star-half"></i>
-
+<i class="fa fa-star-o" aria-hidden="true"></i>
+<i class="fa fa-star-o" aria-hidden="true"></i>
 <span class="rating_avg">(4.5)</span>
 						</span>
 						<span class="product_price">
@@ -204,11 +204,11 @@
 			<div class="row fda_section_row">
 				<div class="row col-10 section_product_tile" >
 					<div class="col-4 justify-content-center align-self-center">
-						<img src="RoganJosh.jpg">
+						<img src="peachcobbler.jpg">
 					</div>
 						<div class="col-6 justify-content-center align-self-center section_meta">
 						<span class="product_title">
-							 RoganJosh
+							 Peachcobbler
 						</span>
 						<span class="product_rating">
 							<i class="fa fa-star"></i>
@@ -222,7 +222,7 @@
 <span class="rating_avg">(4.5)</span>
 						</span>
 						<span class="product_price">
-							<i class="fa fa-inr">250.00</i>
+							<i class="fa fa-inr">500.00</i>
 						</span>
 												<button class="btn btn-sm btn-default" type="button"><a href="waiting.html">Order Now</a></button>
 
@@ -230,11 +230,11 @@
 				</div>
 				<div class="row col-10 section_product_tile" >
 					<div class="col-4 justify-content-center align-self-center">
-						<img src="gulabjamun.jpg">
+						<img src="keylime.jpg">
 					</div>
 						<div class="col-6 justify-content-center align-self-center section_meta">
 						<span class="product_title">
-							 Gulab Jamun
+						Key Lime Pie	
 						</span>
 						<span class="product_rating">
 							<i class="fa fa-star"></i>
@@ -242,6 +242,7 @@
 																					<i class="fa fa-star"></i>
 
 							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o" aria-hidden="true"></i>
 
 							<!-- <i class="fa fa-star-half"></i> -->
 
@@ -256,25 +257,24 @@
 				</div>
 				<div class="row col-10 section_product_tile" >
 					<div class="col-4 justify-content-center align-self-center">
-						<img src="falooda.jpeg">
+						<img src="tatortots.jpg">
 					</div>
 						<div class="col-6 justify-content-center align-self-center section_meta">
 						<span class="product_title">
-							 Falooda
+							 Tator Tots
 						</span>
 						<span class="product_rating">
 							<i class="fa fa-star"></i>
 														<i class="fa fa-star"></i>
 																					<i class="fa fa-star"></i>
+<i class="fa fa-star-o" aria-hidden="true"></i>
+<i class="fa fa-star-o" aria-hidden="true"></i>
+						
 
-							<i class="fa fa-star"></i>
-
-							<i class="fa fa-star-half"></i>
-
-<span class="rating_avg">(4.5)</span>
+<span class="rating_avg">(3)</span>
 						</span>
 						<span class="product_price">
-							<i class="fa fa-inr">250.00</i>
+							<i class="fa fa-inr">215.00</i>
 						</span>
 												<button class="btn btn-sm btn-default" type="button"><a href="waiting.html">Order Now</a></button>
 
